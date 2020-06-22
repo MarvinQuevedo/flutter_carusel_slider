@@ -29,6 +29,7 @@ class CarouselSlider extends StatefulWidget {
   /// A [MapController], used to control the map.
   final CarouselControllerImpl _carouselController;
 
+  CarouselControllerImpl get controller => _carouselController;
   final int itemCount;
 
   CarouselSlider(
